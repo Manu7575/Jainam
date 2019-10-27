@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 html,
 body {
 padding: 0;
@@ -503,7 +498,8 @@ li>a:only-child:after {
     position: absolute;
     width: 100%;
     z-index: 99;
-    background:#60e1bd;
+    background:#171b1a;
+    font-family: 'Staatliches', cursive;
     padding: 1em 7em;
     box-shadow: 0px 0px 3px #6b6b6b;
 }

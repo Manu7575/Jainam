@@ -6,19 +6,27 @@ require('dotenv').config();
 const sendMail = require('../mail');
 
 router.get('/', function (req, res) {
-    res.render('index', {title: 'Jainam Solutions || home'});
+    res.render('index', {title: 'Jainam Solutions || Home'});
 });
 
 router.get('/about', function (req, res) {
-    res.render('about', {title: 'Jainam Solutions || about'});
+    res.render('about', {title: 'Jainam Solutions || About'});
 });
 
 router.get('/services', function (req, res) {
-    res.render('services', {title: 'Jainam Solutions || service'});
+    res.render('services', {title: 'Jainam Solutions || Service'});
+});
+
+router.get('/portfolio', function (req, res) {
+    res.render('portfolio', {title: 'Jainam Solutions || Portfolio'});
+});
+
+router.get('/pricing', function (req, res) {
+    res.render('pricing', {title: 'Jainam Solutions || Pricing'});
 });
 
 router.get('/contact', function (req, res) {
-    res.render('contact', {title: 'Jainam Solutions || contact'});
+    res.render('contact', {title: 'Jainam Solutions || Contact'});
 });
 
 router.post('/contact', (req, res) => {
