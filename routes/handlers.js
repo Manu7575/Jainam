@@ -13,6 +13,10 @@ router.get('/about', function (req, res) {
     res.render('about', {title: 'Jainam Solutions || about'});
 });
 
+router.get('/services', function (req, res) {
+    res.render('services', {title: 'Jainam Solutions || service'});
+});
+
 router.get('/contact', function (req, res) {
     res.render('contact', {title: 'Jainam Solutions || contact'});
 });
