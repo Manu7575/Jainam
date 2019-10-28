@@ -30,16 +30,16 @@ router.get('/contact', function (req, res) {
 });
 
 router.post('/contact', (req, res) => {
-    const { email,text } = req.body;
+    const { email,message,subject } = req.body;
     console.log('Data: ', req.body);
 
-    sendMail(email,text, function(err, data) {
+    sendMail(email,message,subject, function(err, data) {
         if (err) {
             console.log('ERROR: ', err);
             return res.status(500).json({ message: err.message || 'Internal Error' });
         }
-        console.log('Email sent!!!');
-        return res.json({ message: 'Email sent!!!!!' });
+        console.log('Email Sent Successfully');
+        return res.json({ message: 'Email sent Successfully' });
     });
 });
 
