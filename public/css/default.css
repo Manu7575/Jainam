@@ -16,7 +16,11 @@ h1 span.colored, h2 span.colored,h3 span.colored,h4 span.colored,h5 span.colored
 
 /* menu */
 .navbar nav ul.nav li.dropdown ul.dropdown-menu li a:active,.navbar nav ul.nav li.dropdown ul.dropdown-menu li a:focus {
+<<<<<<< HEAD
   background: #20195a;
+=======
+  background: #e96b56;
+>>>>>>> de5167cc55ce0f9fae645bbdb09de9719204b32c
 }
 ul.topmenu li a:hover {
 	color:#e96b56;

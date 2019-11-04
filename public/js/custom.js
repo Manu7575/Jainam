@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Contact form validation
+=======
+
+>>>>>>> de5167cc55ce0f9fae645bbdb09de9719204b32c
 jQuery(document).ready(function ($) {
   "use strict";
 
@@ -142,8 +146,11 @@ jQuery(document).ready(function ($) {
     slideshowSpeed: 5500
   });
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> de5167cc55ce0f9fae645bbdb09de9719204b32c
 });
 
 
