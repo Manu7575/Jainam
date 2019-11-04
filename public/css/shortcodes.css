@@ -134,7 +134,7 @@ border: 1px solid #e6e6e6;
 }
 
 .pricing-box-wrap .pricing-heading {
-	background: #333;
+	background: rgb(255, 153, 0);
 	color:#fff;
 	text-align: center;
 	padding:40px 0 30px 0;
