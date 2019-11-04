@@ -1,4 +1,4 @@
-
+// Contact form validation
 jQuery(document).ready(function ($) {
   "use strict";
 
@@ -141,6 +141,8 @@ jQuery(document).ready(function ($) {
     pauseOnHover: true,
     slideshowSpeed: 5500
   });
+
+
 
 });
 
